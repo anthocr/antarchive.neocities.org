@@ -1,6 +1,6 @@
 
 html {
-  background-image: url('/images/background.gif');
+  background-image: url('images/background.gif');
   background-origin: content-box;
   background-size: cover;
 }
