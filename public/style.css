@@ -54,12 +54,30 @@ header {
   font-style: normal;
   font-size: 96px;
   border: 5px double rgb(71, 71, 71);
-  padding-left: 25px;
+  padding: 15px;
   text-align: center;
 }
 
 header h1 {
   margin: auto;
+}
+
+header img {
+  position: absolute;
+  width: auto;
+  height: 1.4em;
+}
+
+#right-overlap {
+  position: relative;
+  left: 44%;
+  bottom: 130%;
+}
+
+#left-overlap {
+  position: relative;
+  right: 59%;
+  bottom: 35%;
 }
 
 #visitor-counter {
