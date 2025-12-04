@@ -9,8 +9,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Ole&family=VT323&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ole&family=VT323&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,36 +17,57 @@
 
         <!--Site Logo / Header-->
         <header>
-            <h1>Ant's Archive</h1>
+            <h1 class="multicolor-text">Ant's Archive</h1>
             <div id="right-overlap">
-                <img src="images/5ptstar.gif" alt="star gif">
+                <img src="images/5ptstar.gif" alt="star gif" style="bottom: 1.7em;">
             </div>
             <div id="left-overlap">
-                <img src="images/star.gif" alt="gold and silver star gif">
+                <img src="images/star.gif" alt="gold and silver star gif" style="bottom: -0.4em;">
             </div>
         </header>
 
+        <!--Navigation-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="guestbook.html">Guestbook</a>
+        </nav>
+
+        <!--Center Section-->
         <div id="center">
-            <!--Navigation-->
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About me</a>
-                <a href="guestbook.html">Guestbook</a>
-            </nav>
 
             <!--Main Content-->
             <main>
-                <img src="images/goofy-star.gif" style="float: left;">
+                <!--Aside Section-->
+                <aside id="right-float">
+                    <div id="left-column">
+                        <div id="visitor-counter">
+                            <span>You are visitor number:</span> <br>
+                            <script type="text/javascript" src="https://counter.websiteout.com/js/15/3/0/1"></script>
+                        </div>
+
+                        <h2>Currently...</h2>
+                        <ul style="padding-left: 1.3em;">
+                            <li class="music-entry">Listening to: <div class="entry">Christmas Music!</div></li>
+                            <li class="game-entry">Playing: <div class="entry">My 3DS</div></li>
+                            <li class="study-entry">Studying: <div class="entry">Computer Science</div></li>
+                            <li class="reading-entry">Reading: <div class="entry"><i>"When You Call My Name"</i> by Tucker Show</div></li>
+                        </ul> 
+                    </div>
+
+                    <img src="images/creators-photo.png" alt="photo of the creator of the site"
+                        style="width: 50%; height: auto;">
+                </aside>
+
+                <h1>Hello, I'm Anthony!</h1>
                 <p>Welcome to my site! Here you can find things I am interested in as well as some other projects I've
                     worked on. I plan on actively updating the site so stay tuned for more! This site is not
                     mobile-friendly and is meant to be viewed on desktop.</p>
+                <br>
 
-                <div id="visitor-counter">
-                    <span>You are visitor number:</span> <br>
-                    <script type="text/javascript" src="https://counter.websiteout.com/js/15/3/0/1"></script>
-                </div>
+                <h2>Socials</h2>
 
-                <a href="https://neocities.org"><img src="images/neocities.png"></a>
+
+                <a href="https://neocities.org" target="_blank"><img src="images/neocities.png"></a>
 
                 <div id="changelog">
                     <h2>Changelog</h2>

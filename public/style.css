@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Vigallse';
+  src:
+    url('fonts/vigallse/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Retro Italics";
+  src: url('fonts/retro_italics/retroitalics.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Retron2000";
+  src: url('fonts/retron2000/Retron2000.ttf') format('truetype');
+}
 
 html {
   background-image: url('images/background.gif');
@@ -5,64 +20,116 @@ html {
   background-size: cover;
 }
 
-html, body {
+html,
+body {
   overflow: auto;
   height: 100%;
 }
 
 #content {
   font-family: Verdana;
-  margin: 5% 10%;
+  margin: 2em 4em 3em 4em;
   display: flex;
   flex-direction: column;
-  gap: 2.5em;
-  height: 100%;
-  align-items: center;
+  gap: 1.5em;
+  height: fit-content;
 }
 
 #center {
   background-color: white;
+  border: 5px double rgb(71, 71, 71);
+  width: 85%;
+  align-self: center;
+  padding: 1.5em;
+}
+
+
+#right-float {
+  float: right;
   display: flex;
   flex-direction: row;
-  height: 100%;
+  width: 55%;
+  gap: 1em;
+  margin-left: 1em;
 }
 
 nav {
   display: flex;
-  flex-direction: column;
-  gap: 1em;
+  flex-direction: row;
+  gap: 5em;
+  font-family: "Vigallse";
+}
+
+nav a {
   border: 5px double rgb(71, 71, 71);
-  width: 10%;
-  padding: 15px;
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  padding: 0.5em 1.5em;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
 }
 
 main {
-  font-family: "VT323", monospace;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  border: 5px double rgb(71, 71, 71);
-  width: 100%;
-  padding: 15px;
+  font-family: "Retron2000";
+  font-size: 1em;
+}
+
+main h1,
+h2 {
+  font-family: "Retro Italics";
+}
+
+.entry {
+  display: contents;
+  color: indigo;
+}
+
+.music-entry {
+  list-style-type: "\1F3B5";
+}
+
+.game-entry {
+  list-style-type: "\1F3AE";
+}
+
+.study-entry {
+  list-style-type: "\2712";
+}
+
+.reading-entry {
+  list-style-type: "\1F4D6";
 }
 
 header {
   background-color: white;
   font-family: "Ole", cursive;
-  font-weight: 400;
-  font-style: normal;
   font-size: 5em;
   border: 5px double rgb(71, 71, 71);
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+  width: fit-content;
+  align-self: center;
 }
+
 
 header h1 {
   margin: auto;
+}
+
+.multicolor-text {
+
+  /* Apply a linear gradient as the background */
+  background-image: linear-gradient(to right, rgb(99, 8, 165), rgb(22, 22, 168));
+
+  /* Clip the background to the shape of the text */
+  -webkit-background-clip: text;
+  /* For Webkit browsers like Chrome and Safari */
+  background-clip: text;
+
+  /* Make the text transparent to reveal the background gradient */
+  color: transparent;
 }
 
 header img {
@@ -74,21 +141,18 @@ header img {
 #right-overlap {
   position: relative;
   left: 54%;
-  bottom: 129%;
 }
 
 #left-overlap {
   position: relative;
-  right: 68%;
-  bottom: 35%;
+  right: 70%;
 }
 
 #visitor-counter {
-  float: right;
   border: 5px double rgb(71, 71, 71);
-  margin-right: 15px;
   padding: 10px;
   text-align: center;
+  height: fit-content;
 }
 
 #guestbook {
