@@ -40,7 +40,7 @@ body {
   border: 5px double rgb(71, 71, 71);
   width: 85%;
   align-self: center;
-  padding: 1.5em;
+  padding: 2em;
 }
 
 
@@ -50,7 +50,7 @@ body {
   flex-direction: row;
   width: 55%;
   gap: 1em;
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 nav {
@@ -75,9 +75,19 @@ main {
   font-size: 1em;
 }
 
+main p {
+  word-spacing: 1px;
+}
+
 main h1,
 h2 {
   font-family: "Retro Italics";
+}
+
+#left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .entry {
@@ -87,6 +97,10 @@ h2 {
 
 .music-entry {
   list-style-type: "\1F3B5";
+}
+
+.watching-entry {
+  list-style-type: "📺";
 }
 
 .game-entry {
@@ -152,11 +166,29 @@ header img {
   border: 5px double rgb(71, 71, 71);
   padding: 10px;
   text-align: center;
-  height: fit-content;
+  height: auto;
+  width: fit-content;
 }
 
 #guestbook {
-  overflow: auto;
+  overflow: scroll;
   width: 100%;
-  height: 70%;
+  height: 90vh;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+}
+
+#socials img {
+  width: 3em;
+  height: auto;
+}
+
+footer {
+  font-family: "Retro Italics";
+  text-align: center;
+  font-size: 0.8em;
 }
