@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#books td {
+    writing-mode: vertical-rl;
+    border: 2px black solid;
+    font-size: 0.8em;
+    padding: 0.3em;
+    background-color: white;
+    text-align: center;
+}
+
+#books {
+    height: 50vh;
+    width: 75%;
+}
+
+#books tbody {}
+
+#books tr {
+    background-image: url('../images/shelve.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 5% 7% 5% 7%;
+
+    gap: 1%;
+}
