@@ -1,3 +1,11 @@
+/* 
+ * index.css
+ * Antarchive
+ * 2024-06-01
+ * 
+ * Stylesheet for the index page. This file contains styles specific to the index page, and is only included on that page.
+ */
+
 #visitor-counter {
   border: 5px double rgb(71, 71, 71);
   padding: 10px;

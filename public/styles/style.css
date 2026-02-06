@@ -1,3 +1,11 @@
+/* 
+ * style.css
+ * Antarchive
+ * 2024-06-01
+ * 
+ * Main stylesheet for Antarchive. This file is shared across all pages, and contains the base styles for the site.
+ */
+
 @font-face {
   font-family: 'Vigallse';
   src:
@@ -17,7 +25,7 @@
 html {
   background-image: url('../images/background.gif');
   background-origin: content-box;
-  background-size: cover;
+  background-size: auto;
 }
 
 html,
@@ -58,6 +66,11 @@ nav a {
   color: black;
   font-size: 1.5em;
   letter-spacing: 0.1em;
+}
+
+.visiting {
+  color: rgb(99, 8, 165);
+  text-decoration: underline;
 }
 
 main {
@@ -119,12 +132,6 @@ header img {
 #left-overlap {
   position: relative;
   right: 70%;
-}
-
-#guestbook {
-  overflow: scroll;
-  width: 100%;
-  height: 90vh;
 }
 
 footer {

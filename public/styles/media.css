@@ -14,6 +14,14 @@ main {
     text-align: center;
 }
 
+#books td {
+  transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+
+#books td:hover {
+  transform: scale(1.05); /* Grows the element to 150% of its original size */
+}
+
 #books th {
     writing-mode: vertical-rl;
     font-size: 1.2em;
@@ -23,12 +31,13 @@ main {
 }
 
 #books {
-    height: 50vh;
+    height: fit-content;
     width: 75%;
 }
 
 #books tr {
     border-style: solid;
+    box-shadow: inset 5em 1em gold;
     border-image: url("https://foollovers.com/mat/menu05/51a-none.gif") 9 fill round;  /*cedit: https://scripted.neocities.org/images */
     padding: 1%;       
     display: flex;

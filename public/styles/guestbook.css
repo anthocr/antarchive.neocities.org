@@ -1,0 +1,13 @@
+/* 
+ * guestbook.css
+ * Antarchive
+ * 2024-06-01
+ * 
+ * Stylesheet for the guestbook page. This file contains styles specific to the guestbook page, and is only included on that page.
+ */
+
+#guestbook {
+  overflow: scroll;
+  width: 100%;
+  height: 90vh;
+}
