@@ -1,10 +1,4 @@
-/* 
- * style.css
- * Antarchive
- * 2024-06-01
- * 
- * Main stylesheet for Antarchive. This file is shared across all pages, and contains the base styles for the site.
- */
+/* Shared style sheet across pages */
 
 @font-face {
   font-family: 'Vigallse';

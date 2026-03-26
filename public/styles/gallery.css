@@ -1,0 +1,33 @@
+
+#center {
+    background-color: gainsboro;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    max-width: 24%;
+}
+
+.photo img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.photo {
+    padding: 1em;
+    background-color: white;
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 1.2em;
+}
+
+.photo:hover {
+    transform: scale(1.01);
+    transition: ease-in-out 0.3s;
+}
