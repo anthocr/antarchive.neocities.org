@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
     <a href="gallery.html">Gallery</a>
     `;
     nav.querySelectorAll("a").forEach(link => {
-        if (link.href === window.location.href) {
+        if (new URL(link.href).pathname === new URL(window.location.href).pathname) {
             link.classList.add("visiting");
         }
     });
