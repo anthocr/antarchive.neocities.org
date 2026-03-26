@@ -20,12 +20,15 @@ window.addEventListener('DOMContentLoaded', () => {
     <a href="gallery.html">Gallery</a>
     `;
     nav.querySelectorAll("a").forEach(link => {
-        console.log(new URL(link.href).pathname);
-        console.log(new URL(window.location.href).pathname);
-
-        if (new URL(link.href).pathname === new URL(window.location.href).pathname) {
+        if (new URL(link.href).pathname === removeExtension(new URL(window.location.href).pathname)) {
             link.classList.add("visiting");
         }
     });
 
 });
+
+function removeExtension(path) {
+    const lastDotIndex = path.lastIndexOf(".");
+    if (lastDotIndex === -1) return path;
+    return path.substring(0, lastDotIndex);
+}
