@@ -20,15 +20,29 @@ window.addEventListener('DOMContentLoaded', () => {
     <a href="gallery.html">Gallery</a>
     `;
     nav.querySelectorAll("a").forEach(link => {
-        if (new URL(link.href).pathname === removeExtension(new URL(window.location.href).pathname)) {
+        if (getEndofPath(removeExtension(new URL(link.href).pathname)) === getEndofPath(removeExtension(new URL(window.location.href).pathname))) {
             link.classList.add("visiting");
         }
     });
 
 });
 
+/*
+This function takes a path and removes the extension.
+E.g. "/pages/gallery.html" would return "/pages/gallery"
+*/
 function removeExtension(path) {
     const lastDotIndex = path.lastIndexOf(".");
     if (lastDotIndex === -1) return path;
     return path.substring(0, lastDotIndex);
 }
+
+/*
+This function takes a path and returns the last section.
+E.g. "/pages/gallery.html" would return "gallery.html"
+*/
+function getEndofPath(path) {
+    const parts = path.split("/").filter(part => part);
+    return parts.pop();
+}
+
