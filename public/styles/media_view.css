@@ -1,0 +1,11 @@
+button {
+    border: none;
+    color: grey;
+    font: 1em "Retron2000";
+    font-style: italic;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
