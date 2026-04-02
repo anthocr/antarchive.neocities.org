@@ -9,3 +9,10 @@ button:hover {
     transform: scale(1.05);
     transition: ease-in-out 0.3s;
 }
+
+.cover {
+    float: right;
+    margin: 0em 0em 1.5em 1.5em;
+    width: 20vw;
+    height: auto;
+}

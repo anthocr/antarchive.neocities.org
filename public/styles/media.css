@@ -5,24 +5,26 @@ main {
     text-align: center;
 }
 
-#books td {
-    writing-mode: vertical-rl;
-    border: 2px black solid;
-    font-size: 0.8em;
-    padding: 0.3em;
-    background-color: white;
-    text-align: center;
+.book-entry {
+	writing-mode: vertical-rl;
+	font-size: 0.8em;
+	padding: 0.3em;
+	background-color: randomColor();
+	text-align: center;
+	transition: transform 0.3s ease;
+	max-height: 30vh;
 }
 
-#books td {
-  transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
+.book-entry:hover {
+    transform: scale(1.05);
+    /* Grows the element to 150% of its original size */
 }
 
-#books td:hover {
-  transform: scale(1.05); /* Grows the element to 150% of its original size */
+.book-entry a {
+    color: black
 }
 
-#books th {
+.book-header {
     writing-mode: vertical-rl;
     font-size: 1.2em;
     padding: 0.3em;
@@ -33,12 +35,8 @@ main {
 #books {
     height: fit-content;
     width: 75%;
-}
-
-#books tr {
-    border-style: solid;
-    padding: 1%;       
     display: flex;
     flex-direction: row;
-    gap: 0.5%;
+    flex-wrap: wrap;
+    gap: 0.2em;
 }

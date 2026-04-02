@@ -1,5 +1,5 @@
-# The Life Impossible (2024)
-
+![](https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1707411860i/198281740.jpg)
+# The Life Impossible
 #mathematics #philosophy #mystery #novel #reading
 
 Author: Matt Haig
