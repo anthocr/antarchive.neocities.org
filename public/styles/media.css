@@ -6,13 +6,14 @@ main {
 }
 
 .book-entry {
-	writing-mode: vertical-rl;
-	font-size: 0.8em;
-	padding: 0.3em;
-	background-color: randomColor();
-	text-align: center;
-	transition: transform 0.3s ease;
-	max-height: 30vh;
+    writing-mode: vertical-rl;
+    font-size: 0.8em;
+    padding: 0.3em;
+    text-align: center;
+    transition: transform 0.3s ease;
+    max-height: 30vh;
+    border: 2px black solid;
+    border-radius: 4px;
 }
 
 .book-entry:hover {
@@ -21,7 +22,8 @@ main {
 }
 
 .book-entry a {
-    color: black
+    color: black;
+    text-decoration: none;
 }
 
 .book-header {
@@ -39,4 +41,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.2em;
+    border-bottom: 1.5em inset brown;
+    padding: 0em 2em;
+    border-image: url(../images/oak-wood.png) 30 round;
 }
