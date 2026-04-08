@@ -24,6 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
         <a href="guestbook.html">Guestbook</a>
         <a href="media.html">Media</a>
         <a href="gallery.html">Gallery</a>
+        <a href="resources.html">Resources</a>
         `;
 
         // Adds 'visiting' class to the link matching the current page
