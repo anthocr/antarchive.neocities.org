@@ -1,4 +1,33 @@
+/*
+resources.css
+Styles for the resources page
+*/
+
+table th,
+table td {
+    padding: 0.5em;
+}
 
 #coding table th {
-    background-color: #E6E6FA;
+    background: rgb(221, 204, 255);
+}
+
+#coding table td {
+    background: rgb(221, 204, 255, 0.7);
+}
+
+#graphics table th {
+    background: rgb(153, 170, 255);
+}
+
+#graphics table td {
+    background: rgb(153, 170, 255, 0.7);
+}
+
+#tools table th {
+    background: rgb(255, 179, 230);
+}
+
+#tools table td {
+    background: rgb(255, 179, 230, 0.7);
 }
