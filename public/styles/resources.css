@@ -8,6 +8,11 @@ table td {
     padding: 0.5em;
 }
 
+table th {
+    width: 30%;
+    text-align: initial;
+}
+
 #coding table th {
     background: rgb(221, 204, 255);
 }
