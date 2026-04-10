@@ -13,6 +13,17 @@ table th {
     text-align: initial;
 }
 
+table th a, table td a {
+    text-decoration: none;
+    color: black;
+}
+
+table th a:hover, table td a:hover {
+    text-decoration: dotted underline;
+    font-style: italic;
+    opacity: 0.8;
+}
+
 #coding table th {
     background: rgb(221, 204, 255);
 }

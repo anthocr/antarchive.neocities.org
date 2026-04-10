@@ -43,6 +43,8 @@
   max-width: 60%;
   height: fit-content;
   margin-left: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 #right-aside > * {
