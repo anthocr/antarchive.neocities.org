@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ole&display=swap" rel="stylesheet">
     <!-- Scripts -->
     <script src="scripts/shared.js"></script>
+    <script src="scripts/carousel.js" defer></script>
 </head>
 
 <body>
@@ -33,72 +34,72 @@
             <!--Main Content-->
             <main>
                 <!--Right Aside-->
-                <aside id="right-float">
-                    <div id="left-column">
-                        <!--Visitor Counter-->
-                        <div id="visitor-counter">
-                            <span>You are visitor number:</span> <br>
-                            <script type="text/javascript" src="https://counter.websiteout.com/js/15/3/0/1"></script>
-                        </div>
-
-                        <!--Currently section-->
-                        <div id="currently">
-                            <h3>Currently...</h3>
-                            <ul style="padding-left: 1.3em;">
-                                <li class="music-entry">Listening to: <div class="entry">Charli XCX</div>
-                                </li>
-                                <li class="watching-entry">Watching: <div class="entry">Jujutsu Kaisen S03</div>
-                                </li>
-                                <li class="game-entry">Playing: <div class="entry">Timberborn 1.0
-                                    </div>
-                                </li>
-                                <li class="study-entry">Studying: <div class="entry">Computer Science</div>
-                                </li>
-                                <li class="reading-entry">Reading: <div class="entry"><i>"Pentimiento"</i></div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <!--Buttons section-->
-                        <div id="buttons">
-                            <h3>Buttons!</h3>
-                            <div id="button-list">
-                                <a href="https://neocities.org" target="_blank"><img src="images/neocities.png"></a>
-                                <img src="images/buttons/html.gif" alt="button that reads learn html today">
-                                <img src="images/buttons/this-site-is-gay.gif" alt="button that reads this site is gay">
-                                <a href="https://petrapixel.neocities.org/" target="_blank"><img
-                                        src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif"
-                                        alt="petrapixel"></a>
-                                <a href="https://scripted.neocities.org" target="_blank" width="88px;" height="31px;"
-                                    title="Scripted's Resources" alt="Scripted's Button"><img
-                                        src="https://scripted.neocities.org/SCRIPTED-BUTTON.gif"
-                                        title="sources &amp; codes to beautify your website!"></a>
-                                <a title="a collective of my sites and projects :p" href="https://sepiarecord.net"
-                                    target="_blank"><img src="https://sepiarecord.net/assets/imgs/sepiarecord-btn.png"
-                                        alt="sepiarecord.net link"></a>
-                                <a href="images/buttons/grampusbutton.png" target="_blank"><img
-                                        src="https://grampus.neocities.org/images/button.png"></a>
-                                <a href="https://loveberry.nekoweb.org" target="_blank"><img class="marby"
-                                        src="https://loveberry.nekoweb.org/assets/images/loveberry.gif"></a>
-                                <a href="https://debtdeath.neocities.org/buttons" target="_blank"><img
-                                        src="https://debtdeath.neocities.org/img/buttons/flags/debtdeath-bisexual.png"
-                                        alt="bisexual flag" title="bisexual flag"></a>
-                                <a href='images/buttons/sunnishinezbutton.png' target="_blank"><img
-                                        src='https://sunnishinez.neocities.org/button.png' alt='sunnishinez button'></a>
-                                <a href="https://neonaut.neocities.org/" target="_blank"><img
-                                        src="images/buttons/neonaut-banner.png" alt="neonaut"></a>
-                                <a href="https://antikrist.lol/" target="_blank"><img
-                                        src="images/buttons/antikristbutton.png" alt="atikrist site button"></a>
-                                <a href="https://amriel.neocities.org/" target="_blank"><img
-                                        src="images/buttons/amrielbutton.gif" alt="amriel's site"></a>
-                                <a href="https://humanfinny.neocities.org/clubs/cd_world/cdworld_home"
-                                    target="_blank"><img src="images/buttons/cdworld.jpg" alt="CD World clique"></a>
-                                <a href="https://humanfinny.neocities.org/" target="_blank"><img
-                                        src="images/buttons/humanfinny.jpg" alt="humanfinny's site"></a>
-                            </div>
-                        </div>
+                <aside id="right-aside">
+                    <!--Visitor Counter-->
+                    <div id="visitor-counter">
+                        <span>You are visitor number:</span> <br>
+                        <script type="text/javascript" src="https://counter.websiteout.com/js/15/3/0/1"></script>
+                    </div>
+                    <!--Currently section-->
+                    <div id="currently">
+                        <h3>Currently...</h3>
+                        <ul style="padding-left: 1.3em;">
+                            <li class="music-entry">Listening to: <div class="entry">Charli XCX</div>
+                            </li>
+                            <li class="watching-entry">Watching: <div class="entry">Jujutsu Kaisen S03</div>
+                            </li>
+                            <li class="game-entry">Playing: <div class="entry">Timberborn 1.0
+                                </div>
+                            </li>
+                            <li class="study-entry">Studying: <div class="entry">Computer Science</div>
+                            </li>
+                            <li class="reading-entry">Reading: <div class="entry"><i>"Pentimiento"</i></div>
+                            </li>
+                        </ul>
                     </div>
 
+                    <!--Buttons section-->
+                    <div id="buttons">
+                        <div id="button-list">
+                            <a href="https://neocities.org" target="_blank"><img src="images/neocities.png"></a>
+                            <a><img src="images/buttons/html.gif" alt="button that reads learn html today"></a>
+                            <a><img src="images/buttons/this-site-is-gay.gif"
+                                    alt="button that reads this site is gay"></a>
+                            <a href="https://petrapixel.neocities.org/" target="_blank"><img
+                                    src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif"
+                                    alt="petrapixel"></a>
+                            <a href="https://scripted.neocities.org" target="_blank" width="88px;" height="31px;"
+                                title="Scripted's Resources" alt="Scripted's Button"><img
+                                    src="https://scripted.neocities.org/SCRIPTED-BUTTON.gif"
+                                    title="sources &amp; codes to beautify your website!"></a>
+                            <a title="a collective of my sites and projects :p" href="https://sepiarecord.net"
+                                target="_blank"><img src="https://sepiarecord.net/assets/imgs/sepiarecord-btn.png"
+                                    alt="sepiarecord.net link"></a>
+                            <a href="images/buttons/grampusbutton.png" target="_blank"><img
+                                    src="https://grampus.neocities.org/images/button.png"></a>
+                            <a href="https://loveberry.nekoweb.org" target="_blank"><img class="marby"
+                                    src="https://loveberry.nekoweb.org/assets/images/loveberry.gif"></a>
+                            <a href="https://debtdeath.neocities.org/buttons" target="_blank"><img
+                                    src="https://debtdeath.neocities.org/img/buttons/flags/debtdeath-bisexual.png"
+                                    alt="bisexual flag" title="bisexual flag"></a>
+                            <a href='images/buttons/sunnishinezbutton.png' target="_blank"><img
+                                    src='https://sunnishinez.neocities.org/button.png' alt='sunnishinez button'></a>
+                            <a href="https://neonaut.neocities.org/" target="_blank"><img
+                                    src="images/buttons/neonaut-banner.png" alt="neonaut"></a>
+                            <a href="https://antikrist.lol/" target="_blank"><img
+                                    src="images/buttons/antikristbutton.png" alt="atikrist site button"></a>
+                            <a href="https://amriel.neocities.org/" target="_blank"><img
+                                    src="images/buttons/amrielbutton.gif" alt="amriel's site"></a>
+                            <a href="https://humanfinny.neocities.org/clubs/cd_world/cdworld_home" target="_blank"><img
+                                    src="images/buttons/cdworld.jpg" alt="CD World clique"></a>
+                            <a href="https://humanfinny.neocities.org/" target="_blank"><img
+                                    src="images/buttons/humanfinny.jpg" alt="humanfinny's site"></a>
+                            <a href="https://daniele63.com/" target="_blank">
+                                <img src="images/buttons/danieles_button.jpg" alt="Daniele's Button">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Headshot-->
                     <img id="creator-photo" src="images/creators-photo.png" alt="photo of the creator of the site">
                 </aside>
 
@@ -170,6 +171,11 @@
                         <li>04/07/26</li>
                         <ul>
                             <li>Added resources page</li>
+                        </ul>
+                        <li>04/09/26</li>
+                        <ul>
+                            <li>Added button caurosel</li>
+                            <li>Changed layout to grid for aside</li>
                         </ul>
                     </ul>
                 </div>
