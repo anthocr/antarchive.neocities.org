@@ -3,6 +3,10 @@ resources.css
 Styles for the resources page
 */
 
+table {
+    width: 100%;
+}
+
 table th,
 table td {
     padding: 0.5em;
