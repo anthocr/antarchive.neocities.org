@@ -73,7 +73,6 @@
 
 #headshot img {
   width: 100%;
-  height: auto;
 }
 
 #badges {
@@ -99,14 +98,13 @@
 #currently {
   grid-column: 1/5;
   grid-row: 3/10;
-  height: max-content;
   padding: 0.5em;
   margin: 0.7em 0em;
   overflow: hidden;
 }
 
 :root {
-  --num-buttons: 17;
+  --num-buttons: 18;
 }
 
 @keyframes carousel {
