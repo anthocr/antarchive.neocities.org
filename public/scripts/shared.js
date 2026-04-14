@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
         nav.querySelectorAll("a").forEach(link => {
             if (getEndofPath(removeExtension(new URL(link.href).pathname)) === getEndofPath(removeExtension(new URL(window.location.href).pathname))) {
                 link.classList.add("visiting");
-                link.insertAdjacentHTML('afterbegin', '<img src="images/purple_star.gif">');
+                link.insertAdjacentHTML('afterbegin', '<img src="images/little_star.gif" style="margin-right: 0.2em;">');
             }
         });
     }
