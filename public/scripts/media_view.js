@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         fetch(`books/${safeName}.md`)
             .then(response => response.text())
             .then(text => {
-                const html = marked.parse(text);
+                const html = marked.parse(text); // convert markdown to HTML
                 content.innerHTML = html;
                 floatImage();
             })
