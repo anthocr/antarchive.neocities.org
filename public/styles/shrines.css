@@ -1,0 +1,71 @@
+
+#center {
+    background: none;
+    border: none;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
+
+@property --z {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+@keyframes revolve {
+  from {
+    --angle: 0deg;
+    --z: 1;
+  }
+  to {
+    --angle: 360deg;
+    --z: 2;
+  }
+}
+
+html {
+  overflow: hidden;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 75vh;
+  margin: 0;
+  overflow: clip;
+}
+
+.sun, .planet {
+  grid-area: 1 / 1;
+  padding: 10px;
+}
+
+.planet {
+  --x-amplitude: 30vw;
+  --y-amplitude: 5vh;
+  --x: calc(cos(var(--angle)) * var(--x-amplitude));
+  --y: calc(sin(var(--angle)) * var(--y-amplitude));
+  translate: var(--x) var(--y);
+  z-index: calc(var(--z)); /* calc() is for Safari */
+  animation: revolve 7s linear infinite;
+}
+
+.sun {
+   z-index: 2; 
+}
+
+main img {
+  display: block;
+}
+
+.planet img {
+  width: 150px;
+}
+
+.sun img {
+  width: 20vw;
+}
