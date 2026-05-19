@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(../images/bg_top.png);
+    background-repeat: repeat-x;
+    height: auto;
+    padding: 0.3em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    margin: 0 20vw;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#logo {
+    height: 2em;
+}
+
+main {
+    background-image: url(../images/bg_main.png);
+}
