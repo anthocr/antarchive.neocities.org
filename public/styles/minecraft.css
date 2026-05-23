@@ -125,11 +125,11 @@ footer {
     width: 45%;
 }
 
-figure>video {
+figure>iframe {
     width: 100%;
     height: auto;
 }
-
+    
 .mc-border {
   /* Main background color */
   background-color: #c6c6c6; 
@@ -141,4 +141,13 @@ figure>video {
   /* Ensuring sharp corners */
   image-rendering: pixelated;
   padding: 8px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption>a {
+    text-decoration: none;
+    color: #555555;
 }
