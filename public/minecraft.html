@@ -11,11 +11,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ole&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="scripts/minecraft.js" defer></script>
 </head>
 
 <body>
+
+
+
     <div id="content">
         <header>
+
+
+            <!-- Navigation -->
             <nav>
                 <a href="index.html">
                     <img id="logo" src="images/mc_logo.png" alt="ant's archive">
@@ -23,6 +31,14 @@
                 <a href="#videos">Videos</a>
                 <a href="#Screenshots">Screenshots</a>
                 <a href="https://www.minecraft.net/en-us">Game</a>
+                <!-- Background Music -->
+                <audio loop id="bg-music">
+                    <source src="https://files.catbox.moe/52xwgt.mp3" type="audio/mp3">
+                </audio>
+                <button id="playPauseBtn" onclick="togglePlayPause()">
+                    <img src="images/disc.png" alt="music disc">
+                </button>
+
             </nav>
         </header>
 
@@ -111,11 +127,10 @@
                     <!-- Videos -->
                     <div id="video-grid">
                         <figure class="mc-border">
-                            <iframe
-                                src="https://www.youtube.com/embed/ZrU2tCEt70I?list=PLHB_Ie6FmqVtbuUwBq34C-FzXGGaSOZ9j"
+                            <iframe src="https://www.youtube.com/embed/ZrU2tCEt70I?autoplay=0"
                                 title="&quot;Greatest Minecraft Video Ever!&quot; - Original Minecraft Song and Video"
                                 frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             <figcaption>
                                 <a href="https://www.youtube.com/watch?v=ZrU2tCEt70I&list=PLHB_Ie6FmqVtbuUwBq34C-FzXGGaSOZ9j&index=8"
@@ -125,34 +140,37 @@
                         </figure>
 
                         <figure class="mc-border">
-                            <iframe src="https://www.youtube.com/embed/4UdEFmxRmNE?list=PLF60520313D07F366"
+                            <iframe src="https://www.youtube.com/embed/4UdEFmxRmNE"
                                 title="Minecraft - Part 1: How to Survive the First Night" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             <figcaption>
-                                <a href="https://www.youtube.com/watch?v=4UdEFmxRmNE" target="_blank"> Minecraft - Part 1: How to Survive the First Night </a>
+                                <a href="https://www.youtube.com/watch?v=4UdEFmxRmNE" target="_blank"> Minecraft - Part
+                                    1: How to Survive the First Night </a>
                             </figcaption>
                         </figure>
 
                         <figure class="mc-border">
                             <iframe src="https://www.youtube.com/embed/lHngf-CKCzk"
                                 title="Let&#39;s Play Minecraft - Episode 1: It Begins!" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <figcaption>
-                                    <a href="https://www.youtube.com/watch?v=lHngf-CKCzk"> Let's Play Minecraft - Episode 1: It Begins! </a>
-                                </figcaption>
+                            <figcaption>
+                                <a href="https://www.youtube.com/watch?v=lHngf-CKCzk" target="_blank"> Let's Play
+                                    Minecraft - Episode 1:
+                                    It Begins! </a>
+                            </figcaption>
                         </figure>
 
                         <figure class="mc-border">
-                            <iframe
-                                src="https://www.youtube.com/embed/gZ9lNZrNhwQ?list=PLHB_Ie6FmqVtbuUwBq34C-FzXGGaSOZ9j"
+                            <iframe src="https://www.youtube.com/embed/gZ9lNZrNhwQ?autoplay=0"
                                 title="Minecraft The Temple Of Notch" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <figcaption>
-                                    <a href="https://www.youtube.com/watch?v=gZ9lNZrNhwQ&t=1s" target="_blank"> Minecraft The Temple Of Notch </a>
-                                </figcaption>
+                            <figcaption>
+                                <a href="https://www.youtube.com/watch?v=gZ9lNZrNhwQ&t=1s" target="_blank"> Minecraft
+                                    The Temple Of Notch </a>
+                            </figcaption>
                         </figure>
                     </div>
 

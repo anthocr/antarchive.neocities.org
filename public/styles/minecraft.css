@@ -41,7 +41,7 @@ header {
     background-image: url(../images/bg_top.png);
     background-repeat: repeat-x;
     height: auto;
-    padding: 0.3em;
+    padding: 0.2em 0;
 }
 
 nav {
@@ -56,6 +56,19 @@ nav a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+
+#playPauseBtn {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  margin-left: auto;
+  opacity: 0.5;
+}
+
+#playPauseBtn>img {
+    max-height: 2.5em;
 }
 
 #logo {
