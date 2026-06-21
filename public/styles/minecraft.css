@@ -5,6 +5,7 @@ body {
 #content {
     display: flex;
     flex-direction: column;
+    background-image: url(../images/bg_main.png);
 }
 
 nav,
@@ -73,10 +74,6 @@ nav a {
 
 #logo {
     height: 2em;
-}
-
-main {
-    background-image: url(../images/bg_main.png);
 }
 
 #animals {

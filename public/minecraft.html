@@ -21,33 +21,30 @@
 
     <div id="content">
         <header>
-
-
             <!-- Navigation -->
             <nav>
                 <a href="index.html">
                     <img id="logo" src="images/mc_logo.png" alt="ant's archive">
                 </a>
                 <a href="#videos">Videos</a>
-                <a href="#Screenshots">Screenshots</a>
+                <a href="#screenshots">Screenshots</a>
                 <a href="https://www.minecraft.net/en-us">Game</a>
                 <!-- Background Music -->
                 <audio loop id="bg-music">
                     <source src="https://files.catbox.moe/52xwgt.mp3" type="audio/mp3">
                 </audio>
-                <button id="playPauseBtn" onclick="togglePlayPause()">
+                <button type="button" id="playPauseBtn" onclick="togglePlayPause()">
                     <img src="images/disc.png" alt="music disc">
                 </button>
 
             </nav>
         </header>
 
-        <main>
             <div id="wrapper">
                 <!-- Main section -->
                 <main>
                     <!-- side section -->
-                    <aside id="animals">
+                    <aside aria-label="animals" id="animals">
                         <img src="images/animals.png" alt="minecraft steve with animals">
                         <a id="classic-button" href="https://classic.minecraft.net/">Play Minecraft Classic!</a>
                     </aside>
@@ -55,7 +52,7 @@
                     <!-- Main content: trailer & description-->
                     <section>
                         <iframe width="630" height="350" src="https://www.youtube.com/embed/MmB9b5njVbA"
-                            title="Official Minecraft Trailer" frameborder="0"
+                            title="Official Minecraft Trailer"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <p>
@@ -67,12 +64,13 @@
                                 Miencraft tribute
                                 page</a> so please go
                             check theirs out as well!
+                        </p>
                         <p>
                             This game holds a lot of memories for me going all the way
                             back to playing Java Edition on my family's computer running Windows Vista. I remember
                             finally
                             convincing my mom to buy me the game and spent <i>way</i> too much time playing immediately.
-                            This page showcases some of my favorite memories and experiencing playing the game.</p>
+                            This page showcases some of my favorite memories and experiencing playing the game.
                         </p>
                         <p>
                             Minecraft is a game about placing blocks to build anything you can
@@ -90,7 +88,7 @@
                 <!-- Videos section -->
                 <section id="videos">
                     <!-- Description / Summary -->
-                    <aside>
+                    <aside aria-labelledby="videos">
                         <h2>Videos</h2>
                         <p>
                             Minecraft videos have contibuted <b>significantly</b> to the game's popularity and success,
@@ -129,7 +127,6 @@
                         <figure class="mc-border">
                             <iframe src="https://www.youtube.com/embed/ZrU2tCEt70I?autoplay=0"
                                 title="&quot;Greatest Minecraft Video Ever!&quot; - Original Minecraft Song and Video"
-                                frameborder="0"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             <figcaption>
@@ -141,7 +138,7 @@
 
                         <figure class="mc-border">
                             <iframe src="https://www.youtube.com/embed/4UdEFmxRmNE"
-                                title="Minecraft - Part 1: How to Survive the First Night" frameborder="0"
+                                title="Minecraft - Part 1: How to Survive the First Night"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             <figcaption>
@@ -152,7 +149,7 @@
 
                         <figure class="mc-border">
                             <iframe src="https://www.youtube.com/embed/lHngf-CKCzk"
-                                title="Let&#39;s Play Minecraft - Episode 1: It Begins!" frameborder="0"
+                                title="Let&#39;s Play Minecraft - Episode 1: It Begins!"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             <figcaption>
@@ -164,7 +161,7 @@
 
                         <figure class="mc-border">
                             <iframe src="https://www.youtube.com/embed/gZ9lNZrNhwQ?autoplay=0"
-                                title="Minecraft The Temple Of Notch" frameborder="0"
+                                title="Minecraft The Temple Of Notch"
                                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             <figcaption>
@@ -176,12 +173,15 @@
 
                 </section>
 
+                <section id="screenshots">
+                    <h2>Screenshots</h2>
+                </section>
 
+                <br>
                 <footer>
                     Ant's Archive Minecraft Tribute - inspired by minecraft.net - made in 2026
                 </footer>
             </div>
-        </main>
     </div>
 
 </body>
