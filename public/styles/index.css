@@ -39,10 +39,10 @@
   display: grid;
   grid-template-rows: repeat(11, 1fr);
   grid-template-columns: repeat(11, 1fr);
-  max-width: 55%;
+  max-width: 45%;
   height: fit-content;
   margin-left: 1em;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 
