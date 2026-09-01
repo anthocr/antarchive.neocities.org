@@ -7,9 +7,26 @@ body {
 }
 
 #content {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 4em;
+    padding: 1em;
     border: 10px solid #FAE58D;
     border-radius: 10px;
     -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     background-color: #FAE58D;
+}
+
+#sebastian figure {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sv-logo {
+    width: 30%;
+    height: auto;
 }
