@@ -1,9 +1,17 @@
+@font-face {
+  font-family: 'Stardew';
+  src:
+    url('../fonts/stardew/stardew_header.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'basis33';
+    src: url(../fonts/stardew/basis33.ttf) format('truetype');
+}
+
 body {
     background: url("https://stardewvalley.net/wp-content/uploads/2017/12/stardewbackground.png") no-repeat fixed center center / cover;
     image-rendering: pixelated;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
 }
 
 #content {
@@ -16,6 +24,12 @@ body {
     -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     background-color: #FAE58D;
+}
+
+p {
+    font-family: "basis33";
+    font-size: 1.3em;
+    font-weight: 100;
 }
 
 #sebastian figure {
