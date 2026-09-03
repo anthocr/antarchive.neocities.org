@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Stardew';
-  src:
-    url('../fonts/stardew/stardew_header.ttf') format('truetype');
+    font-family: 'Stardew';
+    src:
+        url('../fonts/stardew/stardew_header.ttf') format('truetype');
 }
 
 @font-face {
@@ -14,6 +14,10 @@ body {
     image-rendering: pixelated;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Stardew';
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -24,23 +28,60 @@ body {
     -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     background-color: #FAE58D;
+    font-family: "basis33";
 }
 
 p {
-    font-family: "basis33";
     font-size: 1.3em;
     font-weight: 100;
 }
 
+#concernedape, #sebastian {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sebastian {
+    flex-direction: row-reverse;
+}
+
 #sebastian figure {
-    width: 30%;
-    height: auto;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 5px solid #FAE58D;
+    border-radius: 10px;
+    -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    background: url(../images/stardew/letter_bg.png) no-repeat center / cover;
+}
+
+
+
+#concernedape {
+    flex-direction: row;
+}
+
+#concernedape figure {
+    display: block;
+    align-content: center;
+    width: -moz-available
+}
+
+#concernedape figure img {
+    width: 100%;
 }
 
 #sv-logo {
     width: 30%;
     height: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ol {
+    list-style: none;
 }
