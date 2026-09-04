@@ -39,10 +39,10 @@ p {
 
 header figure {
     display: flex;
-    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
     margin: 0;
 }
 
@@ -77,15 +77,21 @@ header figure img {
 }
 
 #sebastian figure {
-    width: 50%;
     display: flex;
+    width: fit-content;
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
-    background: url(../images/stardew/letter_bg.png) no-repeat center / cover;
+    border: 5px solid #FAE58D;
+    border-radius: 10px;
+    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    background-color: #FAE58D;
+    padding: 0.5em;
 }
 
-
+#sebastian figure img {
+    align-self: center;
+}
 
 #concernedape {
     flex-direction: row;
