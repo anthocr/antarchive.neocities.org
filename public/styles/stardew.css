@@ -18,27 +18,58 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Stardew';
 }
 
+p {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
 #content {
     display: flex;
     flex-direction: column;
-    margin: 2em 4em;
-    padding: 1em;
+    margin: 3em 6em;
+    padding: 1em 2em;
     border: 10px solid #FAE58D;
     border-radius: 10px;
     -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
-    background-color: #FAE58D;
+    background-color: rgb(255, 255, 255, 0.75);
     font-family: "basis33";
 }
 
-p {
-    font-size: 1.3em;
-    font-weight: 100;
+
+header figure {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-#concernedape, #sebastian {
+header figure img {
+    width: 85%;
+}
+
+.loves {
+    margin-top: 1em;
+    display: flex;
+    width: auto;
+}
+
+.heart-icon {
+    border: 5px solid #FAE58D;
+    border-radius: 10px;
+    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    background-color: #FAE58D;
+    align-self: anchor-center;
+    margin-right: 0.5em;
+}
+
+
+#concernedape, #sebastian, header {
     display: flex;
     justify-content: space-evenly;
+    gap: 1em;
 }
 
 #sebastian {
@@ -46,14 +77,11 @@ p {
 }
 
 #sebastian figure {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 5px solid #FAE58D;
     border-radius: 10px;
-    -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
-    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     background: url(../images/stardew/letter_bg.png) no-repeat center / cover;
 }
 
