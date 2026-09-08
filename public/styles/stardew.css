@@ -14,7 +14,12 @@ body {
     image-rendering: pixelated;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Stardew';
 }
 
@@ -24,8 +29,7 @@ p {
 }
 
 #content {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin: 3em 6em;
     padding: 1em 2em;
     border: 10px solid #FAE58D;
@@ -37,22 +41,19 @@ p {
 }
 
 
-header figure {
+header aside {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    float: left;
+    flex-direction: row;
     margin: 0;
+    margin: 0em 2.5em 1em 0em;
 }
 
-header figure img {
-    width: 85%;
-}
 
 .loves {
-    margin-top: 1em;
     display: flex;
+    float: left;
+    flex-direction: column;
     width: auto;
 }
 
@@ -66,9 +67,10 @@ header figure img {
 }
 
 
-#concernedape, #sebastian, header {
-    display: flex;
-    justify-content: space-evenly;
+#concernedape,
+#sebastian,
+header {
+    display: block;
     gap: 1em;
 }
 
@@ -76,28 +78,39 @@ header figure img {
     flex-direction: row-reverse;
 }
 
-#sebastian figure {
+#sebastian aside {
     display: flex;
-    width: fit-content;
-    flex-direction: column;
-    justify-content: center;
+    float: right;
+    flex-direction: row;
+    align-items: center;
     border-radius: 10px;
     border: 5px solid #FAE58D;
     border-radius: 10px;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
-    background-color: #FAE58D;
-    padding: 0.5em;
+    margin: 0em 0em 1em 1em;
+    padding: 0.5em 0.5em 0em 0.5em;
 }
 
-#sebastian figure img {
-    align-self: center;
+#sebastian aside figure,
+header aside figure {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 0.75em;
+    flex-direction: column;
+    align-self: flex-end;
+    margin: 1em 1em 0em 1em;
+}
+
+.portrait {
+    width: 20vw;
 }
 
 #concernedape {
     flex-direction: row;
 }
 
-#concernedape figure {
+#concernedape aside {
     display: block;
     align-content: center;
     width: -moz-available
