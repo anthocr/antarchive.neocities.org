@@ -29,7 +29,6 @@ p {
 }
 
 #content {
-    display: block;
     margin: 3em 6em;
     padding: 1em 2em;
     border: 10px solid #FAE58D;
@@ -40,6 +39,9 @@ p {
     font-family: "basis33";
 }
 
+#sv-logo {
+    width: 30%;
+}
 
 header aside {
     display: flex;
@@ -66,14 +68,6 @@ header aside {
     margin-right: 0.5em;
 }
 
-
-#concernedape,
-#sebastian,
-header {
-    display: block;
-    gap: 1em;
-}
-
 #sebastian {
     flex-direction: row-reverse;
 }
@@ -84,7 +78,7 @@ header {
     flex-direction: row;
     align-items: center;
     border-radius: 10px;
-    border: 5px solid #FAE58D;
+    border: 10px solid #FAE58D;
     border-radius: 10px;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
     margin: 0em 0em 1em 1em;
@@ -103,27 +97,41 @@ header aside figure {
 }
 
 .portrait {
-    width: 20vw;
-}
-
-#concernedape {
-    flex-direction: row;
+    width: 16vw;
 }
 
 #concernedape aside {
     display: block;
     align-content: center;
-    width: -moz-available
+    float: left;
+    width: 25vw;
+    margin: 0em 2.5em 1em 0em;
 }
 
-#concernedape figure img {
+#concernedape aside img {
     width: 100%;
 }
 
-#sv-logo {
-    width: 30%;
-    height: auto;
+#screenshots {
+    width: 40vw;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    gap: 1em;
+    image-rendering: auto;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#screenshots img {
+    width: 100%;
+}
+
 
 footer {
     text-align: center;
