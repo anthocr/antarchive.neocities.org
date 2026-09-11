@@ -28,9 +28,13 @@ p {
     font-weight: 100;
 }
 
+section {
+    overflow: auto;
+}
+
 #content {
     margin: 3em 6em;
-    padding: 1em 2em;
+    padding: 2em 3em;
     border: 10px solid #FAE58D;
     border-radius: 10px;
     -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
