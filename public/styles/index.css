@@ -130,6 +130,10 @@
   overflow-y: auto;
 }
 
+#changelog a {
+  font-style: italic;
+}
+
 @keyframes transform {
   0% {
     transform: translateX(0);
