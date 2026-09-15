@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Stardew';
+    src:
+        url('../fonts/stardew/stardew_header.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'basis33';
+    src: url(../fonts/stardew/basis33.ttf) format('truetype');
+}
+
+body {
+    background: url("https://stardewvalley.net/wp-content/uploads/2017/12/stardewbackground.png") no-repeat fixed center center / cover;
+    image-rendering: pixelated;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Stardew';
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+section {
+    overflow: auto;
+}
+
+#content {
+    margin: 3em 6em;
+    padding: 2em 3em;
+    border: 10px solid #FAE58D;
+    border-radius: 10px;
+    -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    background-color: rgb(255, 255, 255, 0.75);
+    font-family: "basis33";
+}
+
+#sv-logo {
+    width: 30%;
+}
+
+header aside {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    margin: 0;
+    margin: 0em 2.5em 1em 0em;
+}
+
+
+.loves {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+}
+
+.heart-icon {
+    border: 5px solid #FAE58D;
+    border-radius: 10px;
+    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    background-color: #FAE58D;
+}
+
+#sebastian {
+    flex-direction: row-reverse;
+}
+
+#sebastian aside {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    border: 10px solid #FAE58D;
+    border-radius: 10px;
+    border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
+    background: url("../images/stardew/letter_bg.png") no-repeat fixed center center / cover;
+    margin: 0em 0em 1em 1em;
+    padding: 0.5em 0.5em 0em 0.5em;
+}
+
+#sebastian aside figure,
+header aside figure {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 0.75em;
+    flex-direction: column;
+    align-self: flex-end;
+    margin: 1em 1em 0em 1em;
+}
+
+.portrait {
+    width: 16vw;
+}
+
+#concernedape aside {
+    display: block;
+    align-content: center;
+    float: left;
+    width: 25vw;
+    margin: 0em 2.5em 1em 0em;
+}
+
+#concernedape aside img {
+    width: 100%;
+}
+
+#screenshots {
+    width: 40vw;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    gap: 1em;
+    image-rendering: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#screenshots img {
+    width: 100%;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer ol {
+    list-style: none;
+}
