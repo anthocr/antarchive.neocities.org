@@ -1,4 +1,6 @@
-# Ant's Archive
-This is the code for my personal project / site that I plan on updating regularly.
+[![Deployed to neocities](https://github.com/anthocr/antarchive.neocities.org/actions/workflows/neocities.yml/badge.svg)](https://github.com/anthocr/antarchive.neocities.org/actions/workflows/neocities.yml)
 
-Here you can find my interests, proojects, and coding resources that you can use to develop your own site.
+# Ant's Archive
+Ant's Archive is a website that hosts a variety of information and other curios. This includes: book reviews, resources for web developers, shrines to various topics, a gallery, and more in the future! This site is for fun and not supposed to be taken *too* seriously. I hope you can find some joy in it and maybe sign the guestbook if you do!
+
+
