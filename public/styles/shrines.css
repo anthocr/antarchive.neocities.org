@@ -1,7 +1,6 @@
-
 #center {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 @property --angle {
@@ -21,6 +20,7 @@
     --angle: 0deg;
     --z: 1;
   }
+
   to {
     --angle: 360deg;
     --z: 2;
@@ -38,7 +38,8 @@ main {
   margin: 0;
 }
 
-.sun, .planet {
+.sun,
+.planet {
   grid-area: 1 / 1;
   padding: 10px;
 }
@@ -47,8 +48,9 @@ main {
   --x: calc(cos(var(--angle)) * var(--x-amplitude));
   --y: calc(sin(var(--angle)) * var(--y-amplitude));
   translate: var(--x) var(--y);
-  z-index: calc(var(--z)); /* calc() is for Safari */
-  animation: revolve 8s linear infinite;
+  z-index: calc(var(--z));
+  /* calc() is for Safari */
+  animation: revolve 10s linear infinite;
 }
 
 #minecraft-planet {
@@ -61,7 +63,7 @@ main {
 }
 
 #stardew-planet {
-    --x-amplitude: 20vw;
+  --x-amplitude: 20vw;
   --y-amplitude: 25vh;
   z-index: calc(var(--z) -1);
   width: 75px;
@@ -72,7 +74,7 @@ main {
 }
 
 .sun {
-   z-index: 2; 
+  z-index: 2;
 }
 
 main img {
