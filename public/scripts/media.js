@@ -6,7 +6,7 @@ function createBookTable(jsonData) {
     $t.append(`<div class="book-header" id="A">A</div>`); // Add header for A
     books.forEach(book => {
         const slug = encodeURIComponent(book);  // e.g. "The%20Life%20Impossible%20(2024)"
-        $t.append(`<div class="book-entry"><a href="media_view.html?file=${slug}">${book}</a></div>`);
+        $t.append(`<div class="book-entry"><abbr title="${book}"><a href="media_view.html?file=${slug}">${book}</a></abbr></div>`);
     });
     $t.append(`<div class="book-header" id="Z">Z</div>`) // Add header for Z
     randomizeAttributes();
