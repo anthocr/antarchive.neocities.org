@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const file = params.get('file'); // get the 'file' parameter from the URL
 
         const safeName = encodeURIComponent(file);
-        fetch(`../private/books/${safeName}.md`)
+        fetch(`books/${safeName}.md`)
             .then(response => response.text())
             .then(text => {
                 const html = marked.parse(text); // convert markdown to HTML
