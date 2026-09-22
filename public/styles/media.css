@@ -64,4 +64,5 @@ main {
     border-bottom: 1.5em inset brown;
     padding: 0em 2em;
     border-image: url(../images/oak-wood.png) 30 round;
+    margin-top: 1em;
 }
