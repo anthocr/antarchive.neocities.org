@@ -164,6 +164,8 @@ footer ol {
     }
 }
 
+
+/* code credits: https://jaron.nl/articles/animate-along-sine-wave */
 #crop_fairy_container {
     --PI: 3.1415;
     --WAVE-COUNT: 5;
