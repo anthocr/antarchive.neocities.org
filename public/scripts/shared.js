@@ -56,4 +56,3 @@ function getEndofPath(path) {
     const parts = path.split("/").filter(part => part);
     return parts.pop();
 }
-
