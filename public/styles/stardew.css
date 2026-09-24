@@ -12,6 +12,7 @@
 body {
     background: url("https://stardewvalley.net/wp-content/uploads/2017/12/stardewbackground.png") no-repeat fixed center center / cover;
     image-rendering: pixelated;
+    margin: 0;
 }
 
 h1,
@@ -33,8 +34,8 @@ section {
 }
 
 #content {
-    margin: 3em 6em;
-    padding: 2em 3em;
+    margin: 7vh 9vw;
+    padding: 3vh 4vw;
     border: 10px solid #FAE58D;
     border-radius: 10px;
     -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
@@ -44,8 +45,7 @@ section {
 }
 
 #sv-logo {
-    width: 30%;
-    align-self: center;
+    width: 40%;
 }
 
 header aside {
@@ -220,4 +220,23 @@ footer ol {
     position: absolute;
     z-index: -1;
     translate: var(--x-with-unit) var(--y-with-unit);
+}
+
+@keyframes transform {
+  0% {
+    transform: translateX(-3vw);
+  }
+  100% {
+    transform: translateX(75vw);
+  }
+}
+
+#junimo_container {
+    position: absolute;
+}
+
+#junimo_container img {
+  position: absolute;
+  height: 2em;
+  animation: transform 15s infinite;
 }
