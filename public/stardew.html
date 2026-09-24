@@ -12,9 +12,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ole&display=swap" rel="stylesheet">
+
+    <!--Scripts-->
+    <script src="scripts/modal.js" defer></script>
 </head>
 
 <body>
+    <!-- Modal (hidden by default) -->
+    <div id="modal">
+        <!-- Close button -->
+        <span id="closeModal">
+            &times;
+        </span>
+
+        <!-- Modal image -->
+        <img id="modalImage" src="">
+    </div>
+
     <div id="content">
         <!-- Game Description-->
         <header>
@@ -142,11 +156,11 @@
         <!-- My experience section -->
         <section id="experience">
             <aside id="screenshots">
-                <div class="column">
+                <div class="column modal-img">
                     <img src="images/stardew/screenshots/Ant_9-4-2026_farm.png" alt="Ant's house">
                     <img src="images/stardew/screenshots/Yuki_9-4-2026_farm.png" alt="Ant's house">
                 </div>
-                <div class="column">
+                <div class="column modal-img">
                     <img src="images/stardew/screenshots/Yuki_9-4-2026_house.png" alt="Yuki's house">
                 </div>
             </aside>
