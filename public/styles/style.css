@@ -25,11 +25,12 @@ html,
 body {
   overflow: auto;
   height: 100%;
+  margin: 0;
 }
 
 #content {
   font-family: Verdana;
-  margin: 2em 4em 3em 4em;
+  margin: 3vh 5vw;
   display: flex;
   flex-direction: column;
   gap: 1.5em;
@@ -49,6 +50,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   font-family: "Vigallse";
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: inherit;
 }
 
 nav a {
@@ -88,7 +92,7 @@ header {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  width: fit-content;
+  width: max-content;
   align-self: center;
 }
 

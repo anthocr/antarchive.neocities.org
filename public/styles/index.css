@@ -88,7 +88,6 @@
 
 #badges img {
   width: auto;
-  height: auto;
 }
 
 #buttons {
@@ -111,7 +110,7 @@
 }
 
 :root {
-  --num-buttons: 20;
+  --num-buttons: 21;
 }
 
 @keyframes carousel {
@@ -130,6 +129,11 @@
   flex-wrap: nowrap;
   align-items: center;
   gap: 2px;
+}
+
+#button-list>a>img {
+  width: 88px;
+  height: auto;
 }
 
 #changelog {
