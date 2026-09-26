@@ -149,14 +149,21 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(80vw);
   }
 }
 
-#creature {
+#creature-container {
+  position: relative;
+  right: 4%;
+  bottom: 2em;
+}
+
+#creature-container img {
   position: absolute;
   width: 10em;
   height: auto;
-  animation: transform 30s ease-in-out infinite;
+  animation: transform 30s infinite;
 }
