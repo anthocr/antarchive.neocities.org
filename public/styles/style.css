@@ -16,6 +16,11 @@
   src: url('../fonts/retron2000/Retron2000.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: "Megloria";
+  src: url('../fonts/megloria/MEGLORIA.ttf') format('truetype');
+}
+
 html {
   background-image: url('../images/background.webp');
   background-origin: content-box;
@@ -86,7 +91,7 @@ h2 {
 
 header {
   background-color: white;
-  font-family: "Ole", cursive;
+  font-family: "Megloria";
   font-size: 5em;
   border: 5px double rgb(71, 71, 71);
   text-align: center;
@@ -104,7 +109,7 @@ header h1 {
 .multicolor-text {
 
   /* Apply a linear gradient as the background */
-  background-image: linear-gradient(to right, rgb(99, 8, 165), rgb(22, 22, 168));
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(54, 19, 89, 1) 75%);
 
   /* Clip the background to the shape of the text */
   -webkit-background-clip: text;
@@ -142,7 +147,7 @@ header img {
 
 #left-overlap {
   position: relative;
-  right: 70%;
+  right: 65%;
 }
 
 footer {
