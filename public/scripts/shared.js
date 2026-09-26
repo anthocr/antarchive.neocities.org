@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 link.classList.add("visiting");
                 link.insertAdjacentHTML('afterbegin', '<img src="images/little_star.gif" style="margin-right: 0.2em;">');
             }
-            else if ((window.location.pathname === '/') && (link.href == 'index.html')) {
+            else if ((window.location.pathname === '/') && (getEndofPath(link.href == 'index.html'))) {
                 link.classList.add("visiting");
                 link.insertAdjacentHTML('afterbegin', '<img src="images/little_star.gif" style="margin-right: 0.2em;">');
             }
