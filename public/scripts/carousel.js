@@ -11,6 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
   ORIGINAL_BUTTONS.forEach(function (button) {
     const CLONED_BUTTON = button.cloneNode(true);
     BUTTONS_CONTAINER.appendChild(CLONED_BUTTON);
-    console.log("Cloned button:", CLONED_BUTTON);
   });
 });
