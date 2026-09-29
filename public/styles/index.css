@@ -140,11 +140,11 @@
 
 @keyframes transform {
   0% {
-    transform: translateX(0);
+    transform: translateX(-30vw);
   }
 
   100% {
-    transform: translateX(80vw);
+    transform: translateX(120vw);
   }
 }
 
@@ -158,7 +158,7 @@
   position: absolute;
   width: 10em;
   height: auto;
-  animation: transform 30s infinite;
+  animation: transform 20s infinite;
 }
 
 footer {
