@@ -3,6 +3,10 @@ resources.css
 Styles for the resources page
 */
 
+#worker-img {
+    float: right;
+}
+
 table {
     width: 100%;
 }
@@ -36,6 +40,10 @@ table th a:hover, table td a:hover {
     background: rgb(221, 204, 255, 0.7);
 }
 
+#coding table tr:nth-child(even) td {
+    background: rgb(221, 204, 255, 0.5);
+}
+
 #graphics table th {
     background: rgb(153, 170, 255);
 }
@@ -44,10 +52,18 @@ table th a:hover, table td a:hover {
     background: rgb(153, 170, 255, 0.7);
 }
 
+#graphics table tr:nth-child(even) td {
+    background: rgb(153, 170, 255, 0.5);
+}
+
 #tools table th {
     background: rgb(255, 179, 230);
 }
 
 #tools table td {
     background: rgb(255, 179, 230, 0.7);
+}
+
+#tools table tr:nth-child(even) td {
+    background: rgb(255, 179, 230, 0.5);
 }
