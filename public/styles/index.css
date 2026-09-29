@@ -23,17 +23,6 @@
   list-style-type: "\1F4D6";
 }
 
-#socials {
-  display: flex;
-  flex-direction: row;
-  gap: 1.2em;
-}
-
-#socials img {
-  width: 3em;
-  height: auto;
-}
-
 #right-aside {
   float: right;
   display: grid;
@@ -162,7 +151,7 @@
 #creature-container {
   position: relative;
   right: 4%;
-  bottom: 2em;
+  bottom: 1em;
 }
 
 #creature-container img {
@@ -170,4 +159,29 @@
   width: 10em;
   height: auto;
   animation: transform 30s infinite;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+footer p {
+  grid-column: 2/2;
+}
+
+#socials {
+  grid-column: 3/3;
+  justify-self: end;
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+  margin-right: 1vw;
+}
+
+#socials img {
+  max-height: 2em;
+  height: auto;
+  color: grey;
 }

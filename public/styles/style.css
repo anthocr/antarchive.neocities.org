@@ -47,7 +47,7 @@ body {
   border: 5px double rgb(71, 71, 71);
   width: 85%;
   align-self: center;
-  padding: 2em;
+  padding: 2vh 2vw;
 }
 
 nav {
