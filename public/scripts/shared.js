@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
         </div>
         <div id="left-overlap">
             <img src="images/star.gif" alt="gold and silver star gif" style="bottom: -0.4em;">
-            <img src="images/white_star.gif" alt="spinning white star" style="bottom: 1.4em; right: 4.1em;">
+            <img src="images/yellow_star.gif" alt="spinning gold star" style="bottom: 2em; right: 3.7em;">
         </div>`;
     }
 
