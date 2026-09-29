@@ -5,7 +5,7 @@ body {
 #content {
     display: flex;
     flex-direction: column;
-    background-image: url(../images/bg_main.png);
+    background-image: url(../images/minecraft/bg_main.png);
 }
 
 nav,
@@ -39,7 +39,7 @@ main {
 }
 
 header {
-    background-image: url(../images/bg_top.png);
+    background-image: url(../images/minecraft/bg_top.png);
     background-repeat: repeat-x;
     height: auto;
     padding: 0.2em 0;
