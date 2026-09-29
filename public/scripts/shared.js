@@ -10,9 +10,11 @@ window.addEventListener('DOMContentLoaded', () => {
         <h1 class="multicolor-text"> Ant's Archive</h1>
         <div id = "right-overlap" >
             <img src="images/5ptstar.gif" alt="star gif" style="bottom: 1.7em;">
+            <img src="images/gold_star.gif" alt="gold spinning star" style="bottom: -0.5em; left: 4.8em">
         </div>
         <div id="left-overlap">
             <img src="images/star.gif" alt="gold and silver star gif" style="bottom: -0.4em;">
+            <img src="images/white_star.gif" alt="spinning white star" style="bottom: 1.4em; right: 4.1em;">
         </div>`;
     }
 
