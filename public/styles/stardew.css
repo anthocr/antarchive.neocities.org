@@ -85,7 +85,7 @@ header aside {
     border: 10px solid #FAE58D;
     border-radius: 10px;
     border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 20 stretch;
-    background: url("../images/stardew/letter_bg.png") no-repeat fixed center center / cover;
+    background: url("../images/shrines/stardew/letter_bg.png") no-repeat fixed center center / cover;
     margin: 0em 0em 1em 1em;
     padding: 0.5em 0.5em 0em 0.5em;
 }
