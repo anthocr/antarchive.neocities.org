@@ -1,0 +1,46 @@
+
+@keyframes animatedBackground {
+  0% { background-position: top ; }
+  100% { background-position: bottom ; }
+}
+
+html {
+    background-image: url('../images/articles/skyboxes/the_utter_east.png');
+    background-origin: content-box;
+    background-repeat: repeat-x;
+    background-size: cover;
+    overflow: hidden;
+    animation: animatedBackground 100s ease-in;
+}
+
+#content {
+    font-family: Verdana;
+    margin: 10vh 20vw;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#center {
+    background-color: white;
+    border: 5px double rgb(71, 71, 71);
+    width: 85%;
+    align-self: center;
+    padding: 2vh 2vw;
+}
+
+figure {
+    text-align: center;
+}
+
+figure figcaption {
+    color: grey;;
+}
+
+figure img {
+    max-width: 70%;
+    height: auto;
+}
