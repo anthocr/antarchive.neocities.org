@@ -27,6 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
         <a href="media.html">Media</a>
         <a href="shrines.html">Shrines</a>
         <a href="gallery.html">Gallery</a>
+        <a href="writing.html">Writings</a>
         <a href="resources.html">Resources</a>
         `;
 
