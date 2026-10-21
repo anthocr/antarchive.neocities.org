@@ -41,7 +41,6 @@ main {
 .sun,
 .planet {
   grid-area: 1 / 1;
-  padding: 10px;
 }
 
 .planet {
@@ -59,7 +58,7 @@ main {
 }
 
 #minecraft-planet img {
-  width: 125px;
+  width: 7vw;
 }
 
 #stardew-planet {
@@ -70,7 +69,7 @@ main {
 }
 
 #stardew-planet img {
-  width: 110px;
+  width: 6vw;
 }
 
 .sun {
