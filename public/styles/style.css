@@ -91,20 +91,14 @@ h2 {
 }
 
 header {
-  background-color: white;
-  font-family: "Megloria";
-  font-size: 5em;
-  border: 5px double rgb(71, 71, 71);
+  border: 5px double white;
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: max-content;
+  height: 32vh;
+  width: 48vw;
   align-self: center;
-}
-
-
-header h1 {
-  margin: auto;
+  background: url('../images/site-header.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .multicolor-text {
@@ -136,7 +130,7 @@ header h1 {
   -webkit-text-fill-color: transparent;
 }
 
-header img {
+.header-overlap {
   position: absolute;
   width: auto;
   height: 1.2em;
