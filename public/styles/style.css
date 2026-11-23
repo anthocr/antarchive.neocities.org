@@ -149,22 +149,6 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
-.header-overlap {
-  position: absolute;
-  width: auto;
-  height: 1.2em;
-}
-
-#right-overlap {
-  position: relative;
-  left: 54%;
-}
-
-#left-overlap {
-  position: relative;
-  right: 65%;
-}
-
 footer {
   font-family: "Retro Italics";
   text-align: center;
