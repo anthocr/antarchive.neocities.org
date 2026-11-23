@@ -34,6 +34,12 @@
   margin-left: 1em;
   align-items: start;
   justify-content: center;
+  @media (width <= 60em) {
+    max-width: 100%;
+    max-height: 50vh;
+    float: none;
+    margin-left: 0;
+  }
 }
 
 #right-aside>* {
@@ -52,6 +58,9 @@
   display: flex;
   flex-direction: column;
   gap: 0.2em;
+  @media (width <= 60em) {
+    padding: 0.5em;
+  }
 }
 
 
@@ -62,6 +71,10 @@
   height: min-content;
   margin: 0em 0em 0.7em 0.7em;
   gap: 0.2em;
+  @media (width <= 60em) {
+    margin: 0;
+    gap: 0;
+  }
 }
 
 #headshot img {
@@ -74,6 +87,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.2em;
+  @media (width <= 60em) {
+    gap: 0;
+  }
 }
 
 #badges img {
@@ -90,9 +106,9 @@
 #currently {
   grid-column: 1/1;
   grid-row: 2/6;
-  padding: 0em 0.5em;
+  padding: 0.5em 0.5em;
   overflow: scroll;
-  max-height: 85%;
+  max-height: 95%;
 }
 
 #currently ul {
@@ -135,6 +151,13 @@
   justify-content: space-evenly;
 }
 
+#stamps img {
+  @media (width <= 60em) {
+    width: 6em;
+    height: auto;
+  }
+}
+
 #changelog>ul {
   max-height: 60vh;
   overflow-y: auto;
@@ -175,6 +198,9 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
+  @media (width <= 60em) {
+    font-size: 0.4em;
+  }
 }
 
 footer p {
