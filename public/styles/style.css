@@ -41,6 +41,9 @@ body {
   flex-direction: column;
   gap: 1.5em;
   height: fit-content;
+  @media (width <= 60em) {
+    gap: 0.5em;
+  }
 }
 
 #center {
@@ -49,6 +52,10 @@ body {
   width: 85%;
   align-self: center;
   padding: 2vh 2vw;
+  @media (width <= 60em) {
+    width: 90%;
+    padding: 1vh 1vw;
+  }
 }
 
 nav {
@@ -59,6 +66,9 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   gap: inherit;
+  @media (width <= 60em) {
+    gap: 0.5em;
+  }
 }
 
 nav a {
@@ -69,6 +79,9 @@ nav a {
   color: black;
   font-size: 1.5em;
   letter-spacing: 0.1em;
+  @media (width <= 60em) {
+    font-size: 1em;
+  }
 }
 
 .visiting {
@@ -93,12 +106,18 @@ h2 {
 header {
   border: 5px double white;
   text-align: center;
-  height: 32vh;
-  width: 48vw;
+  max-height: 32vh;
+  max-width: 64vw;
   align-self: center;
-  background: url('../images/site-header.png');
-  background-position: center;
-  background-size: cover;
+  @media (width <= 60em) {
+      max-width: 90vw;
+      max-height: 32vh;
+  }
+}
+
+#site-header {
+  height: 100%;
+  width: 100%;
 }
 
 .multicolor-text {

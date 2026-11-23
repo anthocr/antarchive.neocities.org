@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector("header");
     if (header != null) {
         header.innerHTML = `
+        <img id="site-header" src="images/site-header.png" alt="ant archive logo">
         <div id = "right-overlap" >
             <img class="header-overlap" src="images/5ptstar.gif" alt="star gif" style="bottom: 1.7em;">
             <img class="header-overlap" src="images/gold_star.gif" alt="gold spinning star" style="bottom: -0.5em; left: 4.8em">
