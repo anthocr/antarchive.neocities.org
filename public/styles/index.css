@@ -36,7 +36,7 @@
   justify-content: center;
   @media (width <= 60em) {
     max-width: 100%;
-    max-height: 50vh;
+    max-height: 70vh;
     float: none;
     margin-left: 0;
   }
@@ -74,6 +74,7 @@
   @media (width <= 60em) {
     margin: 0;
     gap: 0;
+    overflow: hidden;
   }
 }
 
@@ -94,6 +95,10 @@
 
 #badges img {
   width: auto;
+  @media (width <= 60em) {
+    width: 4em;
+    height: auto;
+  }
 }
 
 #buttons {
